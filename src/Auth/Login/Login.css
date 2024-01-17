@@ -1,0 +1,138 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  height: 100vh;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 17px;
+  padding: 1rem 0rem 2rem 0rem;
+  font-weight: 600;
+}
+
+.heading-logo {
+  font-size: 20px;
+  font-weight: 600 !important;
+}
+.login-container {
+  border: 1px solid #ccc;
+  width: 350px;
+
+  border-radius: 5px;
+}
+
+.login-heading-container {
+  width: 100%;
+
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  border: none;
+  padding: 8px 30px 8px 30px;
+}
+.login-heading {
+  font-weight: 300;
+  font-size: 20px;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 0px 20px;
+}
+.form-label {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.form-input {
+  margin-top: 5px;
+  padding: 6px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+
+  gap: 4px;
+  font-size: 10px;
+  padding: 13px 0px 20px 0px;
+}
+.remember-me p {
+  font-size: 11px;
+  font-weight: 500;
+  color: #505050;
+}
+.remember-me input {
+  width: 11px;
+}
+.login-button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+  padding: 8px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+.horizontal-line {
+  display: flex;
+  justify-content: center;
+  color: rgb(107 105 105);
+  margin: 12px;
+  font-size: 14px;
+}
+.horizontal-line hr {
+  background: rgb(211, 211, 211);
+  height: 1px;
+  width: 150px;
+  margin: 10px;
+}
+.google-login-button {
+  padding: 8px;
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #0072eb;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.google-login-button-container {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.google-logo {
+  font-size: 20px;
+}
+
+.register {
+  display: flex;
+  font-size: 11px;
+  justify-content: space-between;
+  padding: 20px 0px 10px 0px;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.notregister:hover {
+  color: #0051a8;
+}
+.loginGoogle-notregister {
+  padding: 0px 20px 20px 20px;
+}

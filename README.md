@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Cloud Drive Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This project is a cloud drive application built using React and Firebase. The application enables users to manage their files. Users can sign up, sign in, and sign out, as well as upload, list, navigate, and delete files. Additionally, the project provides file preview functionality for PDF and image files.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+### User Authentication
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Users can sign up for a new account.
+- Users can sign in to their existing accounts.
+- Users can sign out to securely end their session.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### File Management
 
-### `npm test`
+- Users can upload files to the cloud drive.
+- Users can navigate between files and folders.
+- Users can delete unwanted files.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### File Preview
 
-### `npm run build`
+- Users can preview PDF files.
+- Users can preview images.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React**: The project is built using the React JavaScript library.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **React Router DOM**: Used for navigation and routing within the application.
 
-### `npm run eject`
+- **React Icons**: Utilized for including icons in the user interface.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **React UUID**: Used for generating unique identifiers for files or other entities in the project.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Firebase Authentication**: User authentication is handled using Firebase Authentication.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Firebase Storage**: Uploaded files are stored securely using Firebase Storage.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Firebase Realtime Database**: User data is stored in a Firebase Realtime Database, providing a scalable and efficient solution for data management.
 
-## Learn More
+## How to Run the Project
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Clone the Repository:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Install Dependencies:
 
-### Code Splitting
+cd clienter
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+npm install
 
-### Analyzing the Bundle Size
+Run the Application:
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Open your browser and navigate to http://localhost:3000.

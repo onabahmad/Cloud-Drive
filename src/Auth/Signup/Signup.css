@@ -1,0 +1,26 @@
+.signup {
+  border-bottom: none !important;
+}
+.signup-heading {
+  margin-bottom: 20px;
+}
+.signup_register {
+  display: flex;
+  font-size: 13px;
+  justify-content: center;
+}
+.error-message {
+  font-size: 13px;
+  color: #ff0000;
+}
+.already-Registerd:hover {
+  color: #0051a8;
+}
+
+.google-signup {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px 20px 20px;
+}
